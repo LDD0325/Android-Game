@@ -17,16 +17,17 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/hand_anim"
+            android:src="@drawable/ic_baseline_replay_24"
             android:scaleType="fitCenter"
-            android:id="@+id/hand_anim_image_view"/>
+            android:id="@+id/set_hand_image_View"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_baseline_replay_24"
-            android:scaleType="fitCenter"
-            android:id="@+id/set_hand_image_View"/>
+            android:src="@drawable/hand_anim"
+            android:scaleType="centerInside"
+            android:id="@+id/hand_anim_image_view"/>
+
 
     </LinearLayout>
 
